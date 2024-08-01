@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(180deg, #0e0e4e, #FFFFFF, #000000);
+    color: #FFFFFF;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #0e0e4e !important;
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    font-weight: bold;
+  }
+  
+  .carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #FFFFFF;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #0000FF;
+  }
+  
