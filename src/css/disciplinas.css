@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(180deg, #0e0e4e, #000000);
+    color: #FFFFFF;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #0e0e4e !important;
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    font-weight: bold;
+  }
+  
+ 
